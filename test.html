@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick-quiz</title>
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <div class="quiz-box">
+      <h1>Quick-Quiz</h1>
+      <div id="q-box">
+        <h2 id="q-text">Question will appear here</h2>
+        <div id="opts" class="options"></div>
+      </div>
+      <div class="nav-btns">
+        <button id="prev" onclick="previousQuestion()">Prev</button>
+        <button id="next" onclick="nextQuestion()">Next</button>
+        <button id="submit" onclick="finishQuiz()">Submit</button>
+      </div>
+      <h3 id="score" style="display: none">Score: 0%</h3>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>
